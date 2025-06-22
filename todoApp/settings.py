@@ -75,7 +75,6 @@ WSGI_APPLICATION = 'todoApp.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',  # or mysql / sqlite3
         'NAME': os.getenv('DB_NAME', 'todo'),
