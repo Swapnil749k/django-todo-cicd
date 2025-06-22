@@ -2,7 +2,8 @@ FROM python:3.11
 
 WORKDIR /data
 
-RUN pip install django==3.2
+# Install dependencies
+RUN pip install django==3.2 psycopg2-binary
 
 COPY . .
 
